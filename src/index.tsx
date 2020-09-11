@@ -36,7 +36,7 @@ export function createReducerContext<S, A>(
   const StateContext = createContext({}, equalityTest);
   const ReferenceContext = React.createContext({});
 
-  const useReference = (): React.RefObject<any> => {
+  const useReference = () => {
     return React.useContext(ReferenceContext) as { current: any };
   };
 

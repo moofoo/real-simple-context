@@ -47,6 +47,7 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "use-context-selection": "^1.4.2"
+    "use-context-selection": "^1.4.2",
+    "use-context-selector": "^1.1.2"
   }
 }
