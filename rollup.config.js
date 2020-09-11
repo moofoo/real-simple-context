@@ -13,7 +13,7 @@ export default {
       format: 'es',
       exports: 'named',
       name: 'real-simple-context',
-      sourcemap: true,
+      sourcemap: false,
       strict: false,
       plugins: [terser()],
     },
