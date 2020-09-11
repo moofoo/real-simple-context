@@ -109,17 +109,10 @@ import { useSelector } from './context';
 
 const Display = ({ stateKey }) => {
   const value = useSelector((state) => state[stateKey]);
-  const rendersRef = React.useRef(0);
-
-  React.useLayoutEffect(() => {
-    rendersRef.current++;
-  });
 
   return (
     <div className='display'>
       {stateKey}: {value}
-      <br />
-      Renders: {rendersRef.current}
     </div>
   );
 };
@@ -136,12 +129,6 @@ import { useActions } from './context';
 const Buttons = () => {
   const { setCounterValue, increment, decrement } = useActions();
 
-  const rendersRef = React.useRef(0);
-
-  React.useLayoutEffect(() => {
-    rendersRef.current++;
-  });
-
   return (
     <div>
       <button type='button' onClick={decrement}>
@@ -156,8 +143,6 @@ const Buttons = () => {
       >
         Randomize
       </button>
-      <br />
-      Renders: {rendersRef.current}
     </div>
   );
 };
