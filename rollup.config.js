@@ -10,7 +10,7 @@ export default {
   output: [
     {
       file: pkg.main,
-      format: 'es',
+      format: 'umd',
       exports: 'named',
       name: 'real-simple-context',
       sourcemap: false,
