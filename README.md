@@ -20,6 +20,8 @@ yarn add real-simple-context
 
 ## Example
 
+[CODESANDBOX](https://codesandbox.io/s/real-simple-context-tjglt)
+
 context.js (createReducerContext)
 
 ```javascript
