@@ -1,6 +1,6 @@
 {
   "name": "real-simple-context",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "license": "MIT",
   "description": "Super Simple Context",
