@@ -12,10 +12,10 @@ yarn add real-simple-context
 ## Table of Contents
 
 1. [Example](#example)
-2. [createReducerContext](#createReducerContext)
-3. [referenceContext param](#referenceContext-param)
-4. [equalityTest param](#equalityTest-param)
-5. [Reducer and initialState with vanilla JS](#Reducer-and-initialState-with-vanilla-JS)
+2. [createReducerContext](#createreducercontext)
+3. [referenceContext param](#referencecontext-param)
+4. [equalityTest param](#equalitytest-param)
+5. [Reducer and initialState with vanilla JS](#reducer-and-initialstate-with-vanilla-js)
 6. [Typescript](#typescript)
 
 ## Example
