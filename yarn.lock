@@ -1935,11 +1935,6 @@ use-context-selection@^1.4.2:
   resolved "https://registry.yarnpkg.com/use-context-selection/-/use-context-selection-1.4.2.tgz#090c430ad24f510ba7634285542597a2af5f9365"
   integrity sha512-5dO2wxaSE9WqtdV6w6TZH9gItzbt5Pv7hTKJZ8R3EgdGKritQVZW/ti81g/Yw5dQvpShe+ounkQ4BBjvy2ujgg==
 
-use-context-selector@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/use-context-selector/-/use-context-selector-1.1.2.tgz#63bf6e3502fd383f1257c49df2495e05564d262e"
-  integrity sha512-uwtrMKEHjZQ8JXMZLUljVDY4CqpAC3MgMcmtpZACG+pJeJ7GNDzBW0thC2RbJX2wKYMvLtYRXgQEqaOnmlF/KQ==
-
 which-module@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
